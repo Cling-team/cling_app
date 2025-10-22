@@ -14,7 +14,6 @@ type BottomDrawerProps = {
   children: React.ReactNode;
 };
 
-// A thin wrapper that keeps the previous API (visible/onClose/height)
 export default function BottomDrawer({ visible, onClose, height, children }: BottomDrawerProps) {
   const modalRef = useRef<BottomSheetModal>(null);
   const screenH = Dimensions.get('window').height;
