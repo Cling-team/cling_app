@@ -1,0 +1,75 @@
+import { StyleSheet } from 'react-native';
+
+export const feedTabStyles = StyleSheet.create({
+  container: {
+    gap: 20,
+  },
+  scopeTabs: {
+    flexDirection: 'row',
+    backgroundColor: 'white',
+    borderRadius: 24,
+    paddingHorizontal: 12,
+    paddingVertical: 12,
+    justifyContent: 'space-between',
+    shadowColor: '#000',
+    shadowOpacity: 0.05,
+    shadowRadius: 12,
+  },
+  scopeTab: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  scopeIndicator: {
+    marginTop: 8,
+    height: 3,
+    width: '60%',
+    borderRadius: 999,
+    backgroundColor: '#6E56CF',
+  },
+  locationWrapper: {
+    position: 'relative',
+  },
+  locationButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: 'white',
+    paddingHorizontal: 20,
+    paddingVertical: 14,
+    borderRadius: 20,
+    shadowColor: '#000',
+    shadowOpacity: 0.05,
+    shadowRadius: 12,
+  },
+  locationDropdown: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: '100%',
+    marginTop: 12,
+    backgroundColor: 'white',
+    borderRadius: 20,
+    paddingVertical: 16,
+    paddingHorizontal: 20,
+    gap: 12,
+    shadowColor: '#000',
+    shadowOpacity: 0.08,
+    shadowRadius: 16,
+    zIndex: 10,
+  },
+  locationOption: {
+    paddingVertical: 4,
+  },
+  friendPrompt: {
+    backgroundColor: 'white',
+    borderRadius: 20,
+    paddingHorizontal: 20,
+    paddingVertical: 18,
+    shadowColor: '#000',
+    shadowOpacity: 0.05,
+    shadowRadius: 12,
+  },
+  feedList: {
+    gap: 16,
+  },
+});

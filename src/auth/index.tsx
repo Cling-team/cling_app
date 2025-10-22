@@ -3,7 +3,6 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 export default function AuthPage() {
   const onSocialLogin = (provider: 'google' | 'apple') => {
-    // TODO: integrate real social login. For now, proceed to onboarding.
     router.push('/onboarding/nickname' as any);
   };
 
